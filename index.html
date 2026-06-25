@@ -1,145 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Online Store</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background: #f4f4f4;
-        }
-
-        header {
-            background: #222;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .products {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            padding: 40px;
-        }
-
-        .card {
-            background: white;
-            width: 250px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            text-align: center;
-            padding-bottom: 20px;
-        }
-
-        .card img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-        }
-
-        .card h2 {
-            margin: 15px 0 10px;
-        }
-
-        .price {
-            color: green;
-            font-size: 22px;
-            margin-bottom: 15px;
-        }
-
-        button {
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        #cart {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: red;
-            color: white;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-weight: bold;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div id="cart">0</div>
-
-    <header>
-        <h1>My Online Store</h1>
-        <p>Best Products at Best Prices</p>
-    </header>
-
-    <section class="products">
-
-        <div class="card">
-            <img src="https://picsum.photos/300/220?1">
-            <h2>Gaming Headset</h2>
-            <div class="price">₹1999</div>
-            <button onclick="addToCart()">Add to Cart</button>
-        </div>
-
-        <div class="card">
-            <img src="https://picsum.photos/300/220?2">
-            <h2>Gaming Mouse</h2>
-            <div class="price">₹999</div>
-            <button onclick="addToCart()">Add to Cart</button>
-        </div>
-
-        <div class="card">
-            <img src="https://picsum.photos/300/220?3">
-            <h2>Mechanical Keyboard</h2>
-            <div class="price">₹2499</div>
-            <button onclick="addToCart()">Add to Cart</button>
-        </div>
-
-    </section>
-<div class="card">
-    <img src="tshirt.jpg">
-    <h2>Cool T-Shirt</h2>
-    <div class="price">₹499</div>
-    <button onclick="addToCart()">Add to Cart</button>
-</div>
-    <script>
-        let count = 0;
-
-        function addToCart() {
-            count++;
-            document.getElementById("cart").innerText = count;
-        }
-    </script>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -564,7 +425,8 @@ document
 
 <p>Price: ₹${price}</p>
 
-</div>
+</div class="Toy car">
+<div class="99">
 `;
 
 }
